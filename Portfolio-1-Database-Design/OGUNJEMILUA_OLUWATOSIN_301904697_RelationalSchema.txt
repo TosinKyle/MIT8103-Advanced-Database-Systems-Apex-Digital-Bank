@@ -1,0 +1,108 @@
+               RELATIONAL SCHEMA – APEX DIGITAL BANK
+The Entity Relationship Diagram has been transformed into a set of relational schemas. Each relation represents a database table, with primary keys (PK) uniquely identifying records and Foreign Keys (FK) establishing relationships among related tables.
+ 
+
+Customer(
+    CustomerID PK,
+    FirstName,
+    LastName,
+    DateOfBirth,
+    Gender,
+    PhoneNumber,
+    Email,
+    StreetAddress,
+    City,
+    State,
+    Country,
+    PostalCode,
+    CustomerType,
+    RegistrationDate,
+    Status
+)
+
+KYC_Record(
+    KYC_ID PK,
+    CustomerID FK,
+    BVN,
+    DocumentType,
+    DocumentNumber,
+    VerificationDate,
+    VerificationStatus
+)
+
+Branch(
+    BranchID PK,
+    BranchName,
+    BranchCode,
+    StreetAddress,
+    City,
+    State,
+    Country,
+    PhoneNumber
+)
+
+Account(
+    AccountID PK,
+    CustomerID FK,
+    BranchID FK,
+    AccountNumber,
+    AccountType,
+    CurrentBalance,
+    Currency,
+    DateOpened,
+    AccountStatus
+)
+
+Transaction(
+    TransactionID PK,
+    AccountID FK,
+    TransactionType,
+    Amount,
+    TransactionDate,
+    ReferenceNumber,
+    Description,
+    TransactionStatus
+)
+
+Transaction_Log(
+    LogID PK,
+    TransactionID FK,
+    ActionPerformed,
+    PerformedBy,
+    LogTimestamp,
+    Remarks
+)
+
+Card(
+    CardID PK,
+    AccountID FK,
+    CardNumber,
+    CardType,
+    IssueDate,
+    ExpiryDate,
+    CardStatus
+)
+
+Loan(
+    LoanID PK,
+    CustomerID FK,
+    LoanType,
+    LoanAmount,
+    InterestRate,
+    LoanTerm,
+    ApplicationDate,
+    ApprovalDate,
+    LoanStatus
+)
+
+Employee(
+    EmployeeID PK,
+    BranchID FK,
+    FirstName,
+    LastName,
+    JobTitle,
+    Department,
+    Email,
+    PhoneNumber,
+    EmploymentDate
+)
