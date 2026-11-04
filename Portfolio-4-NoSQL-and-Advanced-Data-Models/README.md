@@ -232,7 +232,6 @@ Key findings include:
 - **Column-family databases** support large-scale analytical processing.
 - **Graph databases** excel at relationship analysis and fraud detection.
 
-The selection of an appropriate NoSQL model depends on the specific requirements of the banking application, including scalability, performance, flexibility, and relationship analysis needs.
 
 ---
 
