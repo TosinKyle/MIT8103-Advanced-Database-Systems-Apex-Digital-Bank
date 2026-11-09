@@ -35,11 +35,10 @@ The primary objectives of this project are to:
 - Implement the database using Structured Query Language (SQL).
 - Demonstrate the practical application of database management concepts within a real-world banking environment.
 
----
 
 ## Repository Structure
 
-### Portfolio 1 – Conceptual and Logical Database Design
+### Portfolio 1 – Database Design and Modelling
 
 - Requirements Analysis
 - Entity Relationship Diagram (ERD)
@@ -47,7 +46,7 @@ The primary objectives of this project are to:
 - Data Integrity Constraints
 - Database Normalization (1NF, 2NF, 3NF)
 
-### Portfolio 2 – Database Implementation
+### Portfolio 2 – Query Processing and Optimisation
 
 - SQL Queries
 - Query Results
@@ -55,66 +54,43 @@ The primary objectives of this project are to:
 - Indexing and Optimisation Evidence
 - Performance Analysis
 
-### Portfolio 3 – Advanced Database Operations
+### Portfolio 3 – Transactions and Concurrency
 
--- Transaction Examples
+-Transactions
 - Commit Operations
 - Rollback Operations
 - Isolation Levels
 - Concurrency Issues and Control Mechanisms
 - Screenshots and Output Evidence
 
-### Portfolio 4 – Database Administration and Optimization
+### Portfolio 4 – NoSQL and Advanced Data Models
 
 - NoSQL Database Model Based on Apex Digital Bank
-- Document Database Example
+- Document Database Example (MongoDB Implementation)
 - Key-Value Database Example
 - Column-Oriented Database Example
 - Graph Database Example
 - Implementation Evidence
 - Justification of Model Suitability
 
-### Portfolio 5 – Final Evaluation and Reflection
+### Portfolio 5 – Distributed and Cloud Databases
 
 - Distributed or Cloud Database Design Based on Apex Digital Bank
 - Replication Strategy
 - Sharding Strategy
 - Availability Considerations
 - Consistency Considerations
-- Cloud Deployment Evidence
 - Performance and Scalability Discussion
-
----
+- CAP THEOREM, BASE AND ACID PRINCIPLES
 
 ## Technologies and Tools
 
 - DBDiagram
+- NotePad
 - Microsoft Word
 - GitHub
-- SQL
-- Relational Database Management Systems (RDBMS)
-
----
-
-## Current Progress
-
-### Completed
-
-✅ Requirements Analysis
-
-✅ Entity Relationship Diagram (ERD)
-
-✅ Relational Schema Development
-
-✅ Data Integrity Constraints
-
-✅ Database Normalization (1NF, 2NF, and 3NF)
-
-### In Progress
-
-🔄 Portfolio 2 – Database Implementation
-
----
+- Mongo DB
+- Relational Database Management Systems (Microsoft SQL Server)
 
 ## Database Scope
 
@@ -124,37 +100,29 @@ The Apex Digital Bank database consists of the following core entities:
 - KYC_Record
 - Branch
 - Account
-- Transaction
+- Transactions
 - Transaction_Log
 - Card
 - Loan
 - Employee
 
-These entities work together to support the operational and regulatory requirements of a modern digital banking institution.
-
----
+These entities work together to support the operational and regulatory requirements of Apex digital banking institution.
 
 ## Learning Outcomes
 
-Through this project, the following advanced database management concepts are being applied:
+Through this project, the following advanced database management concepts were being applied:
 
-- Database Design Methodologies
+- Database Design
 - Relational Database Modelling
 - Data Integrity Management
 - Database Normalization
 - SQL Database Development
+- NoSQL Database Development
 - Banking Data Management
 - Enterprise Data Architecture
+- Cloud Database Technologies
+- Distributed Database Technologies
 
----
-
-## Project Status
-
-**Status:** Active Development
-
-Portfolio 1 has been completed and uploaded. Subsequent portfolios will be added as development progresses throughout the module.
-
----
 
 ## Author
 
