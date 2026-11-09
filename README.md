@@ -21,7 +21,9 @@ This repository contains all portfolio submissions developed for the MIT 8103 Ad
 
 The database solution is designed to support core banking operations including customer management, Know Your Customer (KYC) verification, account administration, transaction processing, card management, loan services, branch operations, employee management, and audit logging.
 
----
+## Repository Purpose
+
+This repository serves as a central location for all artefacts, documentation, implementation scripts, screenshots, execution plans, and technical evidence produced throughout the MIT 8103 Advanced Database Systems portfolio activities. It demonstrates progressive development, practical implementation, and continuous learning across all five portfolio components.
 
 ## Project Objectives
 
@@ -95,8 +97,7 @@ The primary objectives of this project are to:
 
 ## Database Scope
 
-The Apex Digital Bank database consists of the following core entities:
-
+These entities collectively support customer onboarding, regulatory compliance, account management, transaction processing, loan administration, payment card services, staff operations, and audit monitoring within the Apex Digital Bank ecosystem.
 - Customer
 - KYC_Record
 - Branch
