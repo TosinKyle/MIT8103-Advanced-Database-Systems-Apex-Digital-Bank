@@ -37,7 +37,6 @@ The primary objectives of this project are to:
 - Design and evaluate NoSQL data models suitable for banking operations and scalable data storage.
 - Examine distributed and cloud database concepts, including replication, sharding, consistency, and availability.
 - Explain the practical application of advanced database management concepts within Apex digital banking environment.
-- 
 ## Repository Structure
 
 ### Portfolio 1 – Database Design and Modelling
