@@ -27,15 +27,17 @@ The database solution is designed to support core banking operations including c
 
 The primary objectives of this project are to:
 
-- Analyse business requirements for a digital banking system.
+- Analyse the business and data requirements of Apex Digital Bank.
 - Design a conceptual database model using Entity Relationship Diagrams (ERDs).
-- Develop a logical database design through relational schemas.
-- Apply data integrity constraints to ensure data quality and consistency.
-- Normalize database structures to Third Normal Form (3NF).
+- Develop a logical database structure through relational schemas, keys, and relationships.
+- Apply integrity constraints and normalization techniques up to Third Normal Form (3NF) to improve data quality and consistency.
 - Implement the database using Structured Query Language (SQL).
-- Demonstrate the practical application of database management concepts within a real-world banking environment.
-
-
+- Optimise database performance through query analysis, indexing, and execution plan evaluation.
+- Demonstrate transaction management and concurrency control mechanisms to ensure data reliability.
+- Design and evaluate NoSQL data models suitable for banking operations and scalable data storage.
+- Examine distributed and cloud database concepts, including replication, sharding, consistency, and availability.
+- Explain the practical application of advanced database management concepts within Apex digital banking environment.
+- 
 ## Repository Structure
 
 ### Portfolio 1 – Database Design and Modelling
