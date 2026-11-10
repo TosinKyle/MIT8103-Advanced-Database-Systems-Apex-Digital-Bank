@@ -57,20 +57,5 @@ Evaluation of the database design against First Normal Form (1NF), Second Normal
 
 - Apex_Digital_Bank_ERD.png
 - Key,constraintandnormalization.docx
-- Relational_Schema.txt (optional)
-
----
-
-## Learning Outcomes
-
-- Apply database modelling techniques.
-- Design relational database structures.
-- Define keys and integrity constraints.
-- Implement normalization principles.
-- Produce professional database documentation.
-
----
-
-## Status
-
-✅ Completed
+- Relational_Schema.txt
+- Relational Schema
