@@ -13,6 +13,8 @@
 
 Apex Digital Bank
 
+Apex Digital Bank is a fintech-based digital banking platform that provides financial services to individual and corporate customers through its web and mobile channels. The platform enables customers to conveniently conduct banking activities online, including account opening, fund transfers, make deposits, monitor transactions, and manage their banking activities electronically.
+
 ---
 
 ## Portfolio Overview
